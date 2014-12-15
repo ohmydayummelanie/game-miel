@@ -14,6 +14,7 @@
     <sprite>sprites\spr_enemy</sprite>
     <sprite>sprites\spr_pointer</sprite>
     <sprite>sprites\sprite5</sprite>
+    <sprite>sprites\sprite6</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths">
@@ -32,10 +33,12 @@
     <object>objects\obj_enemy_1</object>
     <object>objects\obj_menu</object>
     <object>objects\object5</object>
+    <object>objects\back_from_credits</object>
+    <object>objects\obj_background_music</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room1</room>
-    <room>rooms\room0</room>
+    <room>rooms\menu</room>
+    <room>rooms\test</room>
     <room>rooms\credits</room>
   </rooms>
   <help>
