@@ -15,8 +15,6 @@
     <sprite>sprites\spr_pointer</sprite>
     <sprite>sprites\sprite5</sprite>
     <sprite>sprites\sprite6</sprite>
-    <sprite>sprites\sprite7</sprite>
-    <sprite>sprites\spr_bullet</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths">
@@ -37,10 +35,7 @@
     <object>objects\object5</object>
     <object>objects\back_from_credits</object>
     <object>objects\obj_background_music</object>
-    <object>objects\obj_gun</object>
-    <object>objects\obj_bullet</object>
   </objects>
-  <timelines name="timelines"/>
   <rooms name="rooms">
     <room>rooms\menu</room>
     <room>rooms\test</room>

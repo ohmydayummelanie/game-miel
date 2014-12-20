@@ -37,8 +37,6 @@ jumpspeed_normal = 9
 jumpspeed_powerup = 15
 
 jumpspeed = jumpspeed_normal
-
-global.faceDirection = 1;
 </string>
           </argument>
         </arguments>
@@ -126,10 +124,6 @@ if (place_meeting(x,y+vSpeed,obj_wall))
 }    
 x += hSpeed;
 y += vSpeed;
-
-//weapons
-if (key_left = -1){global.faceDirection = -1;}
-if (key_right = 1){global.faceDirection = 1;}
 </string>
           </argument>
         </arguments>
