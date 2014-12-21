@@ -97,16 +97,16 @@ if (vSpeed &lt; 8) vSpeed += grav;
     jumpvariables = 0;
 }
 
-if (place_meeting(x,y+1,obj_wall) || (place_meeting(x,y,obj_poweup_extra_jump )))
+if (place_meeting(x,y+1,obj_ground_block) || (place_meeting(x,y,obj_poweup_extra_jump )))
 {
     jumpvariables = 1;
     vSpeed = key_jump * -jumpspeed
 }
 
 //collision
-if (place_meeting(x+hSpeed,y,obj_wall))
+if (place_meeting(x+hSpeed,y,obj_ground_block))
 {
-    while(!place_meeting(x+sign(hSpeed),y,obj_wall))
+    while(!place_meeting(x+sign(hSpeed),y,obj_ground_block))
     {
         x+= sign(hSpeed);
     }
@@ -114,9 +114,9 @@ if (place_meeting(x+hSpeed,y,obj_wall))
 }
 
 //collision
-if (place_meeting(x,y+vSpeed,obj_wall))
+if (place_meeting(x,y+vSpeed,obj_ground_block))
 {
-    while(!place_meeting(x,y+sign(vSpeed),obj_wall))
+    while(!place_meeting(x,y+sign(vSpeed),obj_ground_block))
     {
         y+= sign(vSpeed);
     }
