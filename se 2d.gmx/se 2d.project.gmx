@@ -15,7 +15,6 @@
     <sprite>sprites\spr_pointer</sprite>
     <sprite>sprites\sprite5</sprite>
     <sprite>sprites\sprite6</sprite>
-    <sprite>sprites\spr_ground_block</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths">
@@ -29,7 +28,7 @@
   </fonts>
   <objects name="objects">
     <object>objects\obj_character</object>
-    <object>objects\obj_ground_block</object>
+    <object>objects\obj_wall</object>
     <object>objects\obj_poweup_extra_jump</object>
     <object>objects\obj_enemy_1</object>
     <object>objects\obj_menu</object>
