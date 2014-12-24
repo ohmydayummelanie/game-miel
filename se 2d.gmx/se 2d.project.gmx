@@ -15,6 +15,12 @@
     <sprite>sprites\spr_pointer</sprite>
     <sprite>sprites\sprite5</sprite>
     <sprite>sprites\sprite6</sprite>
+    <sprite>sprites\spr_bommenwerper</sprite>
+    <sprite>sprites\spr_bomdrop</sprite>
+    <sprite>sprites\spr_bomontplof</sprite>
+    <sprite>sprites\spr_nuke</sprite>
+    <sprite>sprites\spr_odin</sprite>
+    <sprite>sprites\spr_blackhole</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths">
@@ -35,11 +41,13 @@
     <object>objects\object5</object>
     <object>objects\back_from_credits</object>
     <object>objects\obj_background_music</object>
+    <object>objects\obj_pointer_options</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\menu</room>
     <room>rooms\test</room>
     <room>rooms\credits</room>
+    <room>rooms\options</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
