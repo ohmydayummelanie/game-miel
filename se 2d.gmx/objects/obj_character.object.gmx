@@ -86,7 +86,7 @@ sprite_index = spr_character
             <string>//movement
 key_left = -keyboard_check(ord('A'));
 key_right = keyboard_check(ord('D'));
-key_jump = keyboard_check(vk_space);
+key_jump = keyboard_check(ord('W'));
 
 //inputs
 move = key_left + key_right;
