@@ -42,12 +42,21 @@
     <object>objects\back_from_credits</object>
     <object>objects\obj_background_music</object>
     <object>objects\obj_pointer_options</object>
+    <object>objects\obj_tekst_options</object>
+    <object>objects\obj_back_controls</object>
+    <object>objects\obj_pointer_levels</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\menu</room>
-    <room>rooms\test</room>
     <room>rooms\credits</room>
     <room>rooms\options</room>
+    <room>rooms\controls</room>
+    <room>rooms\level_select</room>
+    <rooms name="levels">
+      <room>rooms\level_1</room>
+      <room>rooms\level_2</room>
+      <room>rooms\level_3</room>
+    </rooms>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

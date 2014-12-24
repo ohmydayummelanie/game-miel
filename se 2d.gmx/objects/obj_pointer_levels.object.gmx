@@ -56,18 +56,15 @@ mpos = 0;
             <string>if (keyboard_check_pressed(vk_down)){mainSelected += 1;}
 if (keyboard_check_pressed(vk_up)){mainSelected -= 1;}
 
-if (mainSelected &lt; 0){mainSelected = 6;}
-if (mainSelected &gt; 6){mainSelected = 0;}
+if (mainSelected &lt; 0){mainSelected = 3;}
+if (mainSelected &gt; 3){mainSelected = 0;}
 
 if (keyboard_check_pressed(vk_enter))
 {
     if (mainSelected = 0){room_goto(level_1)}
-    if (mainSelected = 1){}
-    if (mainSelected = 2){room_goto(level_select)}
-    if (mainSelected = 3){room_goto(options)}
-    if (mainSelected = 4){url_open_ext('www.callofduty.com/seasonpass','_blank')}
-    if (mainSelected = 5){room_goto(credits)} 
-    if (mainSelected = 6){game_end();}
+    if (mainSelected = 1){room_goto(level_2)}
+    if (mainSelected = 2){room_goto(level_3)}
+    if (mainSelected = 3){room_goto(menu)}
 }
 </string>
           </argument>
@@ -91,23 +88,16 @@ if (keyboard_check_pressed(vk_enter))
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_font(fnt_options);
-draw_text(128,40,"start new game");
-draw_text(128,80,"continue");
-draw_text(128,120,"level select");
-draw_text(128,160,"options");
-draw_text(128,200,"buy season pass");
-draw_text(128,240,"credits");
-draw_text(128,280,"quit");
+            <string>draw_text(128,40,"level 1");
+draw_text(128,80,"level 2");
+draw_text(128,120,"level 3");
+draw_text(128,160,"back");
 
 //draw feedback
-if (mainSelected = 0){draw_sprite(spr_pointer,image_index,64,67);}
-if (mainSelected = 1){draw_sprite(spr_pointer,image_index,64,110);}
-if (mainSelected = 2){draw_sprite(spr_pointer,image_index,64,150);}
-if (mainSelected = 3){draw_sprite(spr_pointer,image_index,64,190);}
-if (mainSelected = 4){draw_sprite(spr_pointer,image_index,64,230);}
-if (mainSelected = 5){draw_sprite(spr_pointer,image_index,64,270);}
-if (mainSelected = 6){draw_sprite(spr_pointer,image_index,64,310);}
+if (mainSelected = 0){draw_sprite(spr_pointer,image_index,64,65);}
+if (mainSelected = 1){draw_sprite(spr_pointer,image_index,64,105);}
+if (mainSelected = 2){draw_sprite(spr_pointer,image_index,64,145);}
+if (mainSelected = 3){draw_sprite(spr_pointer,image_index,64,185);}
 </string>
           </argument>
         </arguments>
@@ -126,7 +116,7 @@ if (mainSelected = 6){draw_sprite(spr_pointer,image_index,64,310);}
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
-    <point>0,0</point>
+    <point>26,25</point>
     <point>32,32</point>
   </PhysicsShapePoints>
 </object>
