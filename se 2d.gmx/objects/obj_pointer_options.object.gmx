@@ -61,7 +61,7 @@ if (mainSelected &gt; 2){mainSelected = 0;}
 
 if (keyboard_check_pressed(vk_enter))
 {
-    if (mainSelected = 0){}
+    if (mainSelected = 0){draw_text(128,40,"sound off")}
     if (mainSelected = 1){room_goto(controls)}
     if (mainSelected = 2){room_goto(menu)}
 }

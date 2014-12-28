@@ -28,6 +28,7 @@
             <string>draw_text(64,64,"Walk to left: A")
 draw_text(64,128,"Walk to right: D")
 draw_text(64,192,"Jump: SPACE BAR")
+
 </string>
           </argument>
         </arguments>
