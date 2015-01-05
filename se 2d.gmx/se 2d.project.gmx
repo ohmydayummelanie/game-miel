@@ -56,6 +56,7 @@
     <room>rooms\options</room>
     <room>rooms\controls</room>
     <room>rooms\level_select</room>
+    <room>rooms\level_1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
