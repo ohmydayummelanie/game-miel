@@ -23,8 +23,11 @@
     <sprite>sprites\spr_nuke</sprite>
     <sprite>sprites\spr_odin</sprite>
     <sprite>sprites\spr_blackhole</sprite>
+    <sprite>sprites\spr_button</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background0</background>
+  </backgrounds>
   <paths name="paths">
     <path>paths\path0</path>
   </paths>
@@ -49,6 +52,7 @@
     <object>objects\obj_tekst_options</object>
     <object>objects\obj_back_controls</object>
     <object>objects\obj_pointer_levels</object>
+    <object>objects\obj_message</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\menu</room>
