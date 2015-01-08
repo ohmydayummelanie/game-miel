@@ -24,6 +24,7 @@
     <sprite>sprites\spr_odin</sprite>
     <sprite>sprites\spr_blackhole</sprite>
     <sprite>sprites\spr_button</sprite>
+    <sprite>sprites\Spr_deadblock</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -53,6 +54,7 @@
     <object>objects\obj_back_controls</object>
     <object>objects\obj_pointer_levels</object>
     <object>objects\obj_message</object>
+    <object>objects\obj_deadblock</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\menu</room>
@@ -60,7 +62,11 @@
     <room>rooms\options</room>
     <room>rooms\controls</room>
     <room>rooms\level_select</room>
-    <room>rooms\level_1</room>
+    <rooms name="levels">
+      <room>rooms\level_1</room>
+      <room>rooms\level_2</room>
+      <room>rooms\level_3</room>
+    </rooms>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
