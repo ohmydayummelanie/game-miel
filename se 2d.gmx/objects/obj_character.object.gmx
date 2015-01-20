@@ -104,6 +104,11 @@ if (place_meeting(x,y+1,obj_wall) || (place_meeting(x,y,obj_poweup_extra_jump ))
     jumpvariables = 1;
     vSpeed = key_jump * -jumpspeed
 }
+if (place_meeting(x,y+1,obj_ground) || (place_meeting(x,y,obj_poweup_extra_jump )))
+{
+    jumpvariables = 1;
+    vSpeed = key_jump * -jumpspeed
+}
 
 //collision
 if (place_meeting(x+hSpeed,y,obj_wall))
@@ -127,9 +132,18 @@ if (place_meeting(x,y+vSpeed,obj_wall))
 x += hSpeed;
 y += vSpeed;
 
+if (place_meeting(x,y+vSpeed,obj_ground))
+{
+    while(!place_meeting(x,y+sign(vSpeed),obj_ground))
+    {
+        y+= sign(vSpeed);
+    }
+}
+
 //weapons
 if (key_left = -1){global.faceDirection = -1;}
 if (key_right = 1){global.faceDirection = 1;}
+
 </string>
           </argument>
         </arguments>

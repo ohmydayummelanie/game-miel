@@ -25,6 +25,8 @@
     <sprite>sprites\spr_blackhole</sprite>
     <sprite>sprites\spr_button</sprite>
     <sprite>sprites\Spr_deadblock</sprite>
+    <sprite>sprites\spr_ondergrond</sprite>
+    <sprite>sprites\spr_underground</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -55,6 +57,8 @@
     <object>objects\obj_pointer_levels</object>
     <object>objects\obj_message</object>
     <object>objects\obj_deadblock</object>
+    <object>objects\obj_ground</object>
+    <object>objects\obj_underground</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\menu</room>
