@@ -57,7 +57,7 @@
     draw_set_font(fnt_menu)
     draw_set_color(c_white)
     draw_set_alpha(1)
-    draw_text(room_width/2,room_height/2,"Game Pause")
+    draw_text(obj_character.x,obj_character.y,"Game Pause")
     draw_set_color(c_black)
 }
 

@@ -85,9 +85,7 @@ sprite_index = spr_character
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (global.pause) exit
-
-//movement
+            <string>//movement
 key_left = -keyboard_check(ord('A'));
 key_right = keyboard_check(ord('D'));
 key_jump = keyboard_check(ord('W'));

@@ -48,9 +48,9 @@
     <object>objects\obj_character</object>
     <object>objects\obj_wall</object>
     <object>objects\obj_poweup_extra_jump</object>
+    <object>objects\obj_pause</object>
     <object>objects\obj_enemy_1</object>
     <object>objects\obj_menu</object>
-    <object>objects\obj_pausemenu</object>
     <object>objects\object5</object>
     <object>objects\back_from_credits</object>
     <object>objects\obj_background_music</object>
