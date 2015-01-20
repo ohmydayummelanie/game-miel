@@ -62,12 +62,11 @@ if (mainSelected &gt; 6){mainSelected = 0;}
 if (keyboard_check_pressed(vk_enter))
 {
     if (mainSelected = 0){room_goto(level_1)}
-    if (mainSelected = 1){}
-    if (mainSelected = 2){room_goto(level_select)}
-    if (mainSelected = 3){room_goto(options)}
-    if (mainSelected = 4){url_open_ext('www.callofduty.com/seasonpass','_blank')}
-    if (mainSelected = 5){room_goto(credits)} 
-    if (mainSelected = 6){game_end();}
+    if (mainSelected = 1){room_goto(level_select)}
+    if (mainSelected = 2){room_goto(options)}
+    if (mainSelected = 3){url_open_ext('www.callofduty.com/seasonpass','_blank')}
+    if (mainSelected = 4){room_goto(credits)} 
+    if (mainSelected = 5){game_end();}
 }
 </string>
           </argument>
@@ -93,12 +92,11 @@ if (keyboard_check_pressed(vk_enter))
             <kind>1</kind>
             <string>draw_set_font(fnt_options);
 draw_text(128,40,"start new game");
-draw_text(128,80,"continue");
-draw_text(128,120,"level select");
-draw_text(128,160,"options");
-draw_text(128,200,"buy season pass");
-draw_text(128,240,"credits");
-draw_text(128,280,"quit");
+draw_text(128,80,"level select");
+draw_text(128,120,"options");
+draw_text(128,160,"buy season pass");
+draw_text(128,200,"credits");
+draw_text(128,240,"quit");
 
 //draw feedback
 if (mainSelected = 0){draw_sprite(spr_pointer,image_index,64,67);}

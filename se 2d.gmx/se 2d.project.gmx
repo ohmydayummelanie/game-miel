@@ -50,6 +50,7 @@
     <object>objects\obj_poweup_extra_jump</object>
     <object>objects\obj_pause</object>
     <object>objects\obj_enemy_1</object>
+    <object>objects\obj_smoke</object>
     <object>objects\obj_menu</object>
     <object>objects\object5</object>
     <object>objects\back_from_credits</object>
@@ -66,7 +67,6 @@
     <object>objects\obj_ground</object>
     <object>objects\obj_underground</object>
     <object>objects\obj_zombie</object>
-    <object>objects\obj_smoke</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\menu</room>
