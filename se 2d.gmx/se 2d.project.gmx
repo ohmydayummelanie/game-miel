@@ -12,6 +12,7 @@
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_powerup_extra_jump</sprite>
     <sprite>sprites\spr_enemy</sprite>
+    <sprite>sprites\spr_zombie_links</sprite>
     <sprite>sprites\spr_pointer</sprite>
     <sprite>sprites\sprite5</sprite>
     <sprite>sprites\sprite6</sprite>
@@ -27,6 +28,7 @@
     <sprite>sprites\Spr_deadblock</sprite>
     <sprite>sprites\spr_ondergrond</sprite>
     <sprite>sprites\spr_underground</sprite>
+    <sprite>sprites\spr_zombie_rechts</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -59,6 +61,7 @@
     <object>objects\obj_deadblock</object>
     <object>objects\obj_ground</object>
     <object>objects\obj_underground</object>
+    <object>objects\obj_zombie</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\menu</room>
