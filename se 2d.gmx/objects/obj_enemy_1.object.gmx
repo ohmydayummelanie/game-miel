@@ -32,6 +32,8 @@ movespeed = 3;
 grav = 0.2;
 hsp = 0;
 vsp = 0;
+
+image_speed = 0.5
 </string>
           </argument>
         </arguments>
@@ -54,7 +56,12 @@ vsp = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>hsp = dir * movespeed;
+            <string>if (global.pause) exit
+{
+    image_speed = 0
+}
+
+hsp = dir * movespeed;
 vsp += grav;
 
 //collision
